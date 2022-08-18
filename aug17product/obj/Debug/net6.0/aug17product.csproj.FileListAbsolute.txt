@@ -1,0 +1,15 @@
+C:\Users\saivignesh\source\repos\aug17product\aug17product\bin\Debug\net6.0\aug17product.exe
+C:\Users\saivignesh\source\repos\aug17product\aug17product\bin\Debug\net6.0\aug17product.deps.json
+C:\Users\saivignesh\source\repos\aug17product\aug17product\bin\Debug\net6.0\aug17product.runtimeconfig.json
+C:\Users\saivignesh\source\repos\aug17product\aug17product\bin\Debug\net6.0\aug17product.dll
+C:\Users\saivignesh\source\repos\aug17product\aug17product\bin\Debug\net6.0\aug17product.pdb
+C:\Users\saivignesh\source\repos\aug17product\aug17product\obj\Debug\net6.0\aug17product.csproj.AssemblyReference.cache
+C:\Users\saivignesh\source\repos\aug17product\aug17product\obj\Debug\net6.0\aug17product.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saivignesh\source\repos\aug17product\aug17product\obj\Debug\net6.0\aug17product.AssemblyInfoInputs.cache
+C:\Users\saivignesh\source\repos\aug17product\aug17product\obj\Debug\net6.0\aug17product.AssemblyInfo.cs
+C:\Users\saivignesh\source\repos\aug17product\aug17product\obj\Debug\net6.0\aug17product.csproj.CoreCompileInputs.cache
+C:\Users\saivignesh\source\repos\aug17product\aug17product\obj\Debug\net6.0\aug17product.dll
+C:\Users\saivignesh\source\repos\aug17product\aug17product\obj\Debug\net6.0\refint\aug17product.dll
+C:\Users\saivignesh\source\repos\aug17product\aug17product\obj\Debug\net6.0\aug17product.pdb
+C:\Users\saivignesh\source\repos\aug17product\aug17product\obj\Debug\net6.0\aug17product.genruntimeconfig.cache
+C:\Users\saivignesh\source\repos\aug17product\aug17product\obj\Debug\net6.0\ref\aug17product.dll
