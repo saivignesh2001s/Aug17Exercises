@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
            int i, j, k;
+            Console.WriteLine("---Problem 2---");
+            Console.WriteLine("triple product");
             Console.WriteLine("Enter the first number");
             i = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter the second number");
@@ -15,6 +17,7 @@
             product = i * j * k;
             Console.WriteLine("Product is" + product);
             Console.WriteLine("--Problem--3");
+            Console.WriteLine("Add,Sub,Div,Mul,Rem");
             int p, l;
             Console.WriteLine("Enter the first number");
             p=Convert.ToInt32(Console.ReadLine());
@@ -38,7 +41,7 @@
 
             Console.WriteLine("---Problem4---");
             int first, second, third, fourth;
-            Console.WriteLine("Enter the numbers");
+            Console.WriteLine("Enter four numbers for average");
             first = Convert.ToInt32(Console.ReadLine());
             second = Convert.ToInt32(Console.ReadLine());
             third = Convert.ToInt32(Console.ReadLine());
@@ -50,7 +53,7 @@
 
             Console.WriteLine("---Problem 5---");
             int x, y, z;
-            Console.WriteLine("Enter the numbers");
+            Console.WriteLine("Enter three numbers for distributive function");
             x=Convert.ToInt32(Console.ReadLine());
             y=Convert.ToInt32(Console.ReadLine());
             z=Convert.ToInt32(Console.ReadLine());
@@ -67,6 +70,7 @@
 
             Console.WriteLine("--Problem 7---");
             int n;
+            Console.WriteLine("Enter digit for pattern");
             n= Convert.ToInt32(Console.ReadLine());
             for (i = 0; i < 4; i++)
             {
@@ -78,6 +82,7 @@
             }
             Console.WriteLine("---Problem8---");
             int rect;
+            Console.WriteLine("Enter digit for rectangle pattern");
             rect=Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("{0}{0}{0}", rect);
             int re = 0;
@@ -88,8 +93,9 @@
             }
             Console.WriteLine("{0}{0}{0}", rect);
 
-            Console.WriteLine("---Problem9---");
+            Console.WriteLine("---Problem9,14---");
             int celsius;
+            Console.WriteLine("Enter celsium to convert K,F");
             celsius=Convert.ToInt32(Console.ReadLine());
             int kelvin = 273 + celsius;
             Console.WriteLine("Kelvin value is {0} degree K", kelvin);
@@ -98,14 +104,25 @@
 
             Console.WriteLine("--Problem 10---");
             int pos, neg;
+            Console.WriteLine("Two numbers only if one positive and one neg returns true");
             pos=Convert.ToInt32(Console.ReadLine());
             neg=Convert.ToInt32(Console.ReadLine());
             if ((pos < 0 && neg > 0) || (pos > 0 && neg < 0))
                 Console.WriteLine("True");
             else
                 Console.WriteLine("False");
+            Console.WriteLine("--Problem 11---");
+            int pa, ja;
+            Console.WriteLine("Two numbers only if Both pos returns true");
+            pa = Convert.ToInt32(Console.ReadLine());
+            ja = Convert.ToInt32(Console.ReadLine());
+            if (pa >0 && ja > 0)
+                Console.WriteLine("True");
+            else
+                Console.WriteLine("False");
+            
 
-            Console.WriteLine("---Problem 11---");
+            Console.WriteLine("---Problem 13---");
             int mtr;
             Console.WriteLine("Enter meter");
             mtr = Convert.ToInt32(Console.ReadLine());
@@ -117,7 +134,7 @@
             int meter;
             meter = 1000 * kilo;
             Console.WriteLine("km to meter is {0}",meter);
-            Console.WriteLine("---Problem 11---");
+            Console.WriteLine("---Problem 15---");
             int usd;
             usd = Convert.ToInt32(Console.ReadLine());
             double rupee = 79.62 * usd;
@@ -125,16 +142,18 @@
 
             Console.WriteLine("---Problem 12---");
             string name = String.Empty;
-             name = Console.ReadLine();
+            Console.WriteLine("Only integer/null string will get parsed otherwise throw errors");
+            name = Console.ReadLine();
             int pp = Int32.Parse(name);
             if (!String.IsNullOrEmpty(name))
             {
-                Console.WriteLine("string is {0}",pp);
+                Console.WriteLine("string is {0}", pp);
             }
             else
-            { 
+            {
                 Console.WriteLine("may be null or number");
             }
+
 
             Console.ReadLine();
         }
